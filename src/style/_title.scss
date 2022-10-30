@@ -1,0 +1,16 @@
+.title{
+    margin: 0 0;
+    font-size: 14px;
+    font-family: MeriendaRegular;
+    color: $text_color;
+    font-style: normal;
+    &_fz40{
+        font-size: 40px;
+    }
+    &_fz24{
+        font-size: 24px;
+    }
+    &_fz14{
+        font-size: 14px;
+    }
+}
