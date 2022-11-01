@@ -11,6 +11,7 @@
         text-align: center;
         color: white;
     }
+
     &__wrapper{
         display: flex;
         flex-direction: row;
@@ -25,6 +26,7 @@
             margin: 0 25px 0 25px;
         }
     }
+    
     &__subtitle{
         display: block;
         margin: 0 auto;
@@ -53,4 +55,24 @@
         }
     }
     
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 360px;
+    position: fixed;
+    align-items: center;
+    top:30px;
+    left: 149px;
+
+    &__item{
+        color: white;
+    }
+    &__text_icon{
+        display: flex;
+        flex-direction: row;
+         align-items:center;
+    }
 }
