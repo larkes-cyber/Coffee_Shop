@@ -1,0 +1,18 @@
+.our_best{
+    background-image: url('../../resources/img/paper_back.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0 110px 0;
+    &__title{
+        text-align: center;
+    }
+    &__wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 802px;
+        margin: 0 auto;
+        margin-top: 39px;
+    }
+}

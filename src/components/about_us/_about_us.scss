@@ -1,0 +1,16 @@
+.about_us{
+    padding: 80px 0 101px 0;
+    &__title{
+        text-align: center;
+    }
+    &__text{
+        font-family: MeriendaRegular;
+        max-width: 590px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    &__wrapper{
+        margin-top: 40px;
+    }
+}
