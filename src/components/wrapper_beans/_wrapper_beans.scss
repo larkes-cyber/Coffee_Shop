@@ -1,0 +1,26 @@
+.divider{
+    height: 1px;
+    width: 60px;
+    &_dark{
+        background:#000;
+    }
+    &_white{
+        background:#fff;
+    }
+}
+
+.beans{
+    &__wrapper{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 15px;
+        img{
+            margin: 0 25px 0 25px;
+        }
+    }
+}
+
+
