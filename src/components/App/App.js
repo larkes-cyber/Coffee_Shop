@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes} from "react-router-dom";
-import { MainPromo, OurCoffee } from "../pages";
+import { MainPromo, OurCoffee,AboutCoffee,CoffeePleasure } from "../pages";
 import TopNav from "../top_nav/TopNav";
 
 import './App.scss';
@@ -17,8 +17,9 @@ function App() {
         <TopNav/>
         <main>
           <Routes>
-            <Route path="/lol" element={<MainPromo/>}/>
-            <Route path="/"element={<OurCoffee/>}/>
+            <Route path="/our_coffee" element={<OurCoffee/>}/>
+            <Route path="/pleasure_coffee"element={<CoffeePleasure/>}/>
+            <Route path="/"element={<MainPromo/>}/>
           </Routes>
         </main>
       </div>

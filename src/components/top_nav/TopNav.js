@@ -1,4 +1,5 @@
 import './_top_nav.scss';
+import {NavLink } from 'react-router-dom';
 
 const TopNav = () => {
     return (
@@ -29,10 +30,10 @@ const TopNav = () => {
             </clipPath>
             </defs>
             </svg>
-            <div className='title title_fz12 nav__item'>Coffee house</div>
+            <div className=''><NavLink className="title title_fz12 nav__item" to="/">Coffee house</NavLink></div>
     </div>
-    <div className='title title_fz12 nav__item'>Our coffee</div>
-    <div className='title title_fz12 nav__item'>For your pleasure</div>
+    <div className=''><NavLink className="title title_fz12 nav__item" to='/our_coffee'>Our coffee</NavLink></div>
+    <div className=''><NavLink className="title title_fz12 nav__item" to='/pleasure_coffee'>For your pleasure</NavLink></div>
 </div>
     )
 }

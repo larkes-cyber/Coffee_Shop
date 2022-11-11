@@ -2,6 +2,7 @@ import CoffeeCard from '../coffee_card/CoffeeCard';
 import './_coffee_search.scss';
 
 
+
 const cards = [<CoffeeCard/>,<CoffeeCard/>,<CoffeeCard/>,<CoffeeCard/>,<CoffeeCard/>,<CoffeeCard/>]
 
 const CoffeeSearch = () => {
