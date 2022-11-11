@@ -1,0 +1,28 @@
+.about_coffee{
+    &__wrapper{
+        display: grid;
+        grid-template-columns: 392px 418px;
+       // grid-template-rows: 355px;
+        justify-content: center;
+        margin-top: 70px;
+        column-gap: 55px;
+    }
+    &__title{
+        text-align: center;
+    }
+
+  
+    &__content{
+        h4{
+            span{
+               font-weight: 500;
+            }
+            margin-bottom: 16px;
+        }
+    }
+    &__price{
+        span{
+            font-size: 24px;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.about_our_beans{
+    padding-top: 70px;
+    &__wrapper{
+        display: grid;
+        grid-template-columns: 272px 326px;
+        grid-template-rows: 1fr;
+        justify-content: center;
+        column-gap: 79px;
+    }
+    &__image{
+       min-width: 100%;
+       object-fit: cover;
+       margin-top: -20px;
+    }
+    &__wrap_text{
+        margin-top: 25px;
+        display: grid;
+        grid-template-rows: auto auto;
+        row-gap: 24px;
+    }
+    &__text{
+        text-align: center;
+    }
+    &__title{
+        text-align: center;
+    }
+    &__divider{
+        height: 1px;
+        background: #000;
+        width: 240px;
+        margin: 0 auto;
+    }
+}

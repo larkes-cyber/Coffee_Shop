@@ -1,0 +1,12 @@
+.promo_our_coffee{
+    background-image: url('../../resources/img/promo_our_coffee.jpg');
+    height: 260px;
+    .container{
+        padding-top: 120px;
+    }
+    &__title{
+        font-family: MeriendaBold;
+        color:#fff;
+        text-align: center;
+    }
+}
